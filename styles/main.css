@@ -28,6 +28,14 @@ a {
     color: rgb(82, 127, 102);
 }
 
+.whisper {
+    font-family: Handlee, "Comic Sans MS", sans-serif;
+    color: rgb(82, 127, 102);
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
 .box {
     background-color: rgb(30, 48, 44);
     border-radius: 16px;
