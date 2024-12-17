@@ -1,0 +1,68 @@
+@import url("main.css");
+
+.box {
+	width: 80%;
+}
+
+.song-header {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 6;
+}
+
+.song-icon {
+	flex: 0 1 auto;
+	margin-right: 1vw;
+	display: block;
+	height: 100%;
+	border-radius: 0.5em;
+}
+
+.song-player {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	width: 75%;
+	height: 100%;
+}
+
+.song-title {
+	flex: 0 0 auto;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0.25vw;
+	min-width: 0;
+	font-size: 1.8vw;
+	font-weight: lighter;
+}
+
+.song-embed {
+	flex: 0 1 100%;
+	background-color: #000;
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 0;
+	min-height: 0;
+	border-style: solid;
+	border-width: 0.5vw;
+	border-radius: 0.5em;
+}
+
+.song-desc {
+	font-size: 1em;
+	min-height: 1em;
+	margin-bottom: -0.5em;
+}
+
+.links {
+	font-size: 1em;
+    text-align: right;
+    color: rgb(82, 127, 102);
+}
+
+a {
+	font-size: 1em;
+}

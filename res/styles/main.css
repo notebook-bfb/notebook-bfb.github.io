@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(22, 30, 28);
+}
+
+h1 {
+    font-family: Handlee, "Comic Sans MS", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-family: "Noto Sans Light", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+a {
+    font-family: "Noto Sans Light", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.centered {
+    text-align: center;
+}
+
+.quiet {
+    color: rgb(82, 127, 102);
+}
+
+.whisper {
+    font-family: Handlee, "Comic Sans MS", sans-serif;
+    color: rgb(82, 127, 102);
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.box {
+    background-color: rgb(30, 48, 44);
+    border-radius: 16px;
+
+    width: 60%;
+
+    padding: 12px;
+
+    margin: 0 auto;
+}
+
+#profile-picture {
+    float: left;
+    padding: 25px;
+    border-radius: 48px;
+}
+
+#intro-text {
+    padding: 25px;
+    overflow: hidden;
+
+    background-color: rgb(30, 48, 44);
+    border-radius: 16px;
+}
+
+#platforms {
+    width: 60%;
+
+    padding: 12px;
+
+    margin: 0 auto;
+}
+
+#platforms-links {
+    text-align: center;
+    color: rgb(82, 127, 102);
+}
